@@ -1,0 +1,6 @@
+{
+  "name": "The Arise20 Foundation",
+  "description": "Official portal for The Arise20 Foundation - empowering communities through education, healthcare, youth empowerment, and sustainable development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
