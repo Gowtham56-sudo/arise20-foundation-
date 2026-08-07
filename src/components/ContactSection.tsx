@@ -48,32 +48,41 @@ export const ContactSection: React.FC = () => {
             className="lg:col-span-5 space-y-6 transform-gpu"
           >
             <div className="bg-gradient-to-br from-[#0A2E63] to-[#154C9E] text-white p-8 rounded-3xl shadow-xl border border-[#E3B341]/30 space-y-6">
-              <h3 className="text-2xl font-bold mb-2">Central Headquarters</h3>
-              <p className="text-xs text-blue-100/80 mb-6">Visiting hours: Monday – Saturday, 9:00 AM – 6:00 PM IST</p>
+              <h3 className="text-2xl font-bold mb-2">Contact Us</h3>
+              <p className="text-xs text-blue-100/80 mb-6">Reach out to us for partnerships and inquiries.</p>
 
               <div className="space-y-4 text-xs sm:text-sm">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-[#E3B341] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>The Arise20 Foundation Towers</strong>
+                    <strong>Registered Address</strong>
                     <br />
-                    Plot 42, Knowledge Corridor, Institutional Area, Sector 62, Noida, NCR, India - 201309
+                    17/1, Azath Nagar, Anthoypuram, Suramangalam, Salem – 636005
+                  </span>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 text-[#E3B341] flex-shrink-0 mt-0.5" />
+                  <span>
+                    <strong>Office Address</strong>
+                    <br />
+                    2nd Floor, V.V. Shopping Plaza, Opp. Alagapuram Police Station, Salem – 636004
                   </span>
                 </div>
 
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-[#E3B341] flex-shrink-0" />
-                  <span>24/7 Helpline: +91 (120) 4820-2020 / +1 (800) 274-7320</span>
+                  <span>9025720321</span>
                 </div>
 
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-[#E3B341] flex-shrink-0" />
-                  <span>contact@arise20foundation.org / csr@arise20foundation.org</span>
+                  <span>thearise20foundation@gmail.com</span>
                 </div>
 
                 <div className="flex items-center gap-3">
                   <Globe className="w-5 h-5 text-[#E3B341] flex-shrink-0" />
-                  <span>www.arise20foundation.org</span>
+                  <span>www.thearise20foundation.in</span>
                 </div>
               </div>
             </div>
@@ -89,7 +98,7 @@ export const ContactSection: React.FC = () => {
               <div className="absolute inset-0 bg-black/30 flex items-center justify-center p-4">
                 <div className="bg-white/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-xl flex items-center gap-3 text-xs font-bold text-[#0A2E63]">
                   <MapPin className="w-5 h-5 text-[#154C9E] animate-bounce" />
-                  <span>Arise20 Foundation Global Hub (Interactive Map Pin)</span>
+                  <span>The Arise 20 Foundation, Salem</span>
                 </div>
               </div>
             </div>

@@ -26,11 +26,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDonate, onOpenVolunteer })
 
   const navLinks = [
     { name: 'About Us', href: '#about' },
-    { name: 'Impact', href: '#impact' },
     { name: 'Programs', href: '#programs' },
-    { name: 'Stories', href: '#stories' },
     { name: 'Gallery', href: '#gallery' },
-    { name: 'Events', href: '#events' },
     { name: 'Contact', href: '#contact' },
   ];
 

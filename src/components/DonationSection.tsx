@@ -9,7 +9,7 @@ interface DonationSectionProps {
 }
 
 export const DonationSection: React.FC<DonationSectionProps> = ({
-  initialAmount = 1000,
+  initialAmount = 27000,
   initialProgramId,
 }) => {
   const [frequency, setFrequency] = useState<'once' | 'monthly'>('once');
@@ -24,14 +24,13 @@ export const DonationSection: React.FC<DonationSectionProps> = ({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [receiptData, setReceiptData] = useState<any>(null);
 
-  const PRESET_AMOUNTS = [500, 1000, 2500, 5000, 10000, 25000];
+  const PRESET_AMOUNTS = [27000, 81000, 324000];
 
   const getImpactMessage = (val: number) => {
-    if (val < 1000) return 'Sponsors digital learning kits & textbooks for 2 primary school children.';
-    if (val < 2500) return 'Provides 1 month of nutritious school meals & health checkups for 5 kids.';
-    if (val < 5000) return 'Funds 1 mobile health clinic visit with free medicines for a rural hamlet.';
-    if (val < 10000) return 'Equips 1 school computer station with solar power & internet connectivity.';
-    return 'Full monthly sponsorship for 10 high-school students, including STEM robotics kits.';
+    if (val === 27000) return 'Monthly Sponsor: Provides free training, preserves Tamil heritage, empowers women & youth for one month.';
+    if (val === 81000) return 'Quarterly Sponsor: Provides free training, preserves Tamil heritage, empowers women & youth for three months.';
+    if (val === 324000) return 'Annual Sponsor: Fully supports our training programs, community welfare, and administration for an entire year.';
+    return 'Custom sponsorship to support education, culture, women empowerment and community development.';
   };
 
   const handleCopyUpi = () => {
@@ -264,7 +263,7 @@ export const DonationSection: React.FC<DonationSectionProps> = ({
                   </div>
 
                   <div className="flex items-center gap-2 text-xs sm:text-sm font-mono font-bold text-gray-800 bg-white px-4 py-2 rounded-xl border border-gray-300 mb-2">
-                    <span>UPI ID: arise20foundation@okicici</span>
+                    <span>UPI ID: thearise20foundation@sbi</span>
                     <button
                       type="button"
                       onClick={handleCopyUpi}
@@ -275,6 +274,35 @@ export const DonationSection: React.FC<DonationSectionProps> = ({
                     </button>
                   </div>
                   <p className="text-[11px] text-gray-500">Scan using Google Pay, PhonePe, Paytm, or BHIM UPI apps</p>
+                </motion.div>
+              )}
+
+              {/* Bank Wire Details Display Box */}
+              {paymentMethod === 'netbanking' && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="bg-gray-50 p-6 rounded-2xl border border-gray-200"
+                >
+                  <h4 className="text-sm font-bold text-[#0A2E63] mb-4 text-center">Bank Transfer Details</h4>
+                  <div className="space-y-3 text-xs sm:text-sm text-gray-700 bg-white p-4 rounded-xl border border-gray-300">
+                    <div className="flex justify-between border-b border-gray-100 pb-2">
+                      <span className="font-bold">A/c Name:</span>
+                      <span>The Arise 20 Foundation</span>
+                    </div>
+                    <div className="flex justify-between border-b border-gray-100 pb-2">
+                      <span className="font-bold">A/c Number:</span>
+                      <span className="font-mono">43616478208</span>
+                    </div>
+                    <div className="flex justify-between border-b border-gray-100 pb-2">
+                      <span className="font-bold">IFSC Code:</span>
+                      <span className="font-mono">SBIN0010501</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-bold">Branch:</span>
+                      <span>Suramangalam Branch</span>
+                    </div>
+                  </div>
                 </motion.div>
               )}
             </div>

@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-4 space-y-4">
             <Logo variant="light" size="lg" />
             <p className="text-xs sm:text-sm text-blue-100/80 leading-relaxed max-w-sm">
-              The Arise20 Foundation is a premier international non-profit organization dedicated to empowering last-mile communities through education, healthcare, youth livelihood, and clean water.
+              The Arise 20 Foundation is a non-profit charitable trust dedicated to preserving Tamil Nadu's traditional arts while empowering underprivileged communities through free education, cultural training, and social development.
             </p>
             <div className="flex items-center gap-2 text-xs text-[#E3B341] font-semibold">
               <ShieldCheck className="w-4 h-4" />
@@ -39,9 +39,7 @@ export const Footer: React.FC = () => {
             <h4 className="text-sm font-bold text-[#E3B341] uppercase tracking-wider mb-4">Foundation</h4>
             <ul className="space-y-2.5 text-blue-100/80 font-medium">
               <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#impact" className="hover:text-white transition-colors">Impact Report</a></li>
               <li><a href="#programs" className="hover:text-white transition-colors">Our Programs</a></li>
-              <li><a href="#stories" className="hover:text-white transition-colors">Success Stories</a></li>
               <li><a href="#gallery" className="hover:text-white transition-colors">Photo Gallery</a></li>
             </ul>
           </div>
@@ -52,7 +50,6 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2.5 text-blue-100/80 font-medium">
               <li><a href="#donate" className="hover:text-white transition-colors">Donate to Cause</a></li>
               <li><a href="#volunteer" className="hover:text-white transition-colors">Become Volunteer</a></li>
-              <li><a href="#events" className="hover:text-white transition-colors">Upcoming Events</a></li>
               <li><a href="#faq" className="hover:text-white transition-colors">FAQ & 80G Tax</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">CSR Partnerships</a></li>
             </ul>

@@ -48,8 +48,8 @@ export default function App() {
         {/* 1. Hero */}
         <Hero onOpenDonate={handleOpenDonate} onOpenVolunteer={handleOpenVolunteer} />
 
-        {/* 2. Impact Statistics */}
-        <ImpactStats />
+        {/* 2. Impact Statistics (Removed due to irrelevant mock data) */}
+        {/* <ImpactStats /> */}
 
         {/* 3. About Foundation (Vision, Mission, Founder, Values) */}
         <AboutSection />
@@ -60,20 +60,20 @@ export default function App() {
           onOpenDonate={handleOpenDonate}
         />
 
-        {/* 5. Success Stories Spotlight */}
-        <SuccessStories />
+        {/* 5. Success Stories Spotlight (Removed) */}
+        {/* <SuccessStories /> */}
 
-        {/* 6. Masonry Gallery with Lightbox */}
-        <GallerySection onOpenLightbox={(item) => setSelectedGalleryItem(item)} />
+        {/* 6. Masonry Gallery with Lightbox (Removed) */}
+        {/* <GallerySection onOpenLightbox={(item) => setSelectedGalleryItem(item)} /> */}
 
-        {/* 7. Upcoming Events Timeline */}
-        <EventsTimeline onRegisterEvent={(event) => setSelectedEvent(event)} />
+        {/* 7. Upcoming Events Timeline (Removed) */}
+        {/* <EventsTimeline onRegisterEvent={(event) => setSelectedEvent(event)} /> */}
 
-        {/* 8. Testimonials Slider */}
-        <TestimonialsSection />
+        {/* 8. Testimonials Slider (Removed) */}
+        {/* <TestimonialsSection /> */}
 
-        {/* 9. Partner Logos & Institutional Trust Wall */}
-        <PartnersSection />
+        {/* 9. Partner Logos & Institutional Trust Wall (Removed) */}
+        {/* <PartnersSection /> */}
 
         {/* 10. Direct Donation Engine with UPI/QR & Tax Exemption 80G */}
         <DonationSection />

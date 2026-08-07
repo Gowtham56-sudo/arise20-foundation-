@@ -1,29 +1,30 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Target, Compass, Shield, Users, Sparkles, HeartHandshake, CheckCircle2 } from 'lucide-react';
+import founderImage from '../../images/isravel.jpeg';
 
 export const AboutSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'story' | 'vision' | 'values'>('story');
 
   const coreValues = [
     {
-      title: 'Integrity & Transparency',
-      desc: '100% financial accountability with open-access quarterly audit reports.',
+      title: 'The Challenge',
+      desc: 'Many traditional Tamil art forms are disappearing because of limited awareness and financial support. Thousands of talented children never receive proper training due to poverty.',
       icon: Shield,
     },
     {
-      title: 'Empathy in Action',
-      desc: 'Grassroots listening before intervention, ensuring community ownership.',
+      title: 'Our Solution',
+      desc: 'We conduct free weekly training sessions, folk art workshops, performance practice, cultural awareness programmes, orphanage visits, rural camps, school outreach and public performances.',
       icon: HeartHandshake,
     },
     {
-      title: 'Sustainable Innovation',
-      desc: 'Deploying solar energy and digital tools for self-reliant ecosystems.',
+      title: 'Our Focus',
+      desc: 'Preserve Tamil traditional arts including Parai Attam, Oyilattam, Karagattam, Devarattam, Mayilattam, Kummi, Kolattam and other indigenous art forms.',
       icon: Sparkles,
     },
     {
-      title: 'Inclusive Dignity',
-      desc: 'Empowering women, children, and marginalised groups as equal change agents.',
+      title: 'Empowerment',
+      desc: 'Students gain confidence, discipline, leadership and communication skills while preserving Tamil culture.',
       icon: Users,
     },
   ];
@@ -43,10 +44,10 @@ export const AboutSection: React.FC = () => {
             About The Arise20 Foundation
           </span>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 tracking-tight leading-tight mb-4 font-heading">
-            Nurturing Hope & Building Self-Reliant Communities
+            Nurturing Hope & Preserving Tamil Heritage
           </h2>
           <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-            Founded with a conviction that every human deserves access to quality learning, dignified healthcare, and sustainable livelihood opportunities.
+            A non-profit charitable trust dedicated to preserving Tamil Nadu's traditional arts while empowering underprivileged communities through free education, cultural training, and social development.
           </p>
         </motion.div>
 
@@ -81,7 +82,7 @@ export const AboutSection: React.FC = () => {
                   : 'text-gray-600 hover:text-gray-900'
               }`}
             >
-              Core Values
+              Challenge & Solution
             </button>
           </div>
         </div>
@@ -104,16 +105,16 @@ export const AboutSection: React.FC = () => {
                 className="lg:col-span-5 relative transform-gpu"
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-                  <img
-                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1000"
-                    alt="Dr. Rajesh Sharma Founder"
-                    className="w-full h-96 object-cover"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white">
-                    <h4 className="text-xl font-bold">Dr. Rajesh Sharma</h4>
-                    <p className="text-xs text-[#E3B341] font-medium">Founder & Managing Trustee</p>
-                  </div>
+                    <img
+                      src={founderImage}
+                      alt="Mr. Isravel Founder"
+                      className="w-full h-96 object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                    <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white">
+                      <h4 className="text-xl font-bold">Mr. Isravel</h4>
+                      <p className="text-xs text-[#E3B341] font-medium">Founder & Managing Trustee</p>
+                    </div>
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-[#E3B341] text-[#0A2E63] font-bold p-4 rounded-2xl shadow-lg text-xs max-w-xs border border-white">
                   "Small acts of consistent love can ignite an unstoppable wave of transformation."
@@ -130,13 +131,13 @@ export const AboutSection: React.FC = () => {
                   Our Origin Story
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight font-heading">
-                  From a Single Village Library to a Nationwide Movement
+                  Preserving Arts, Empowering Lives
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  In 2016, Dr. Rajesh Sharma, a former AI scientist and social reformer, visited a remote village in Jharkhand. He witnessed children studying under dim kerosene lamps, walking 10 km daily to access a single textbook.
+                  The Arise 20 Foundation was founded by Mr. Isravel with the primary mission to provide free training in Tamil folk arts to orphanage children, economically disadvantaged children, rural youth, and marginalized communities.
                 </p>
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  Determined to change this narrative, he pooled personal savings with a group of passionate educators and engineers to launch <strong>The Arise20 Foundation</strong>. What started as one solar-powered reading room has expanded into a multi-sector non-profit touching 250,000+ lives across India.
+                  We believe culture is identity, confidence, livelihood, and social transformation. By reviving disappearing indigenous art forms, we build a society where every child can access cultural education and opportunities for personal development.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 pt-4 border-t border-blue-200/60 text-xs sm:text-sm font-semibold text-gray-800">
@@ -182,17 +183,17 @@ export const AboutSection: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-extrabold mb-4 font-heading">Our Vision</h3>
                   <p className="text-blue-100/90 leading-relaxed text-base mb-6">
-                    To build a equitable world where geographical or financial background never limits a child's potential, health, or right to prosper.
+                    To build a society where every child, regardless of financial background, has access to cultural education, personal development, and opportunities to build a brighter future while preserving Tamil heritage.
                   </p>
                 </div>
                 <ul className="space-y-3 text-xs sm:text-sm text-blue-100/80 pt-6 border-t border-white/10">
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#E3B341]"></span>
-                    <span>Zero illiteracy in 500 partner villages by 2030</span>
+                    <span>Culture is identity and confidence</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#E3B341]"></span>
-                    <span>Universal access to clean solar water & basic healthcare</span>
+                    <span>Livelihood and social transformation</span>
                   </li>
                 </ul>
               </motion.div>
@@ -209,17 +210,21 @@ export const AboutSection: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-extrabold text-gray-900 mb-4 font-heading">Our Mission</h3>
                   <p className="text-gray-600 leading-relaxed text-base mb-6">
-                    To deliver scalable, technology-driven, and sustainable solutions in education, healthcare, youth livelihood, and eco-conservation to empower the last-mile citizen.
+                    Preserve Tamil traditional arts including Parai Attam, Oyilattam, Karagattam, Devarattam, Mayilattam, Kummi, Kolattam and other indigenous art forms.
                   </p>
                 </div>
                 <ul className="space-y-3 text-xs sm:text-sm text-gray-600 pt-6 border-t border-gray-100">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#154C9E]" />
-                    <span>Empowering women micro-entrepreneurs through skill toolkits</span>
+                    <span>Provide free arts education to orphanage and underprivileged children</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#154C9E]" />
-                    <span>Deployment of mobile telemedicine units to remote tribal belts</span>
+                    <span>Empower women through skill development, leadership and community engagement</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-[#154C9E]" />
+                    <span>Conduct educational, health, youth empowerment and community welfare initiatives</span>
                   </li>
                 </ul>
               </motion.div>

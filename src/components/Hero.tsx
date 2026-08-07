@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart, UserPlus, ShieldCheck, Award, ArrowDown, Sparkles } from 'lucide-react';
+import bg1 from '../../backgroundimages/1st.png';
+import bg2 from '../../backgroundimages/2nd.jpg';
+import bg3 from '../../backgroundimages/3rd.png';
 
 interface HeroProps {
   onOpenDonate: (amount?: number) => void;
@@ -9,22 +12,22 @@ interface HeroProps {
 
 const HERO_SLIDES = [
   {
-    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=2000',
-    title: 'Arising Together, Transforming Lives',
-    subtitle: 'Empowering underprivileged communities across India with sustainable education, healthcare, and livelihood programs.',
+    image: bg1,
+    title: 'Preserving Heritage, Empowering Youth',
+    subtitle: 'Dedicated to preserving Tamil Nadu\'s traditional arts while empowering underprivileged communities through free education.',
     badge: '100% Transparent Non-Profit',
   },
   {
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=2000',
-    title: 'Lighting Every Child’s Digital Dream',
-    subtitle: 'Building solar-powered smart computer labs and offering STEM scholarships to 45,000+ rural students.',
-    badge: 'AriseEdu Initiative',
+    image: bg2,
+    title: 'Reviving Traditional Arts',
+    subtitle: 'Providing free training in Parai Attam, Oyilattam, and more to orphanage children and rural youth.',
+    badge: 'Cultural Identity',
   },
   {
-    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=2000',
-    title: 'Mobile Healthcare at Every Doorstep',
-    subtitle: 'Deploying 65+ equipped medical vans delivering free diagnostic care, maternal aid, and medicines to remote villages.',
-    badge: 'AriseHealth Mission',
+    image: bg3,
+    title: 'Building a Brighter Future',
+    subtitle: 'Fostering confidence, discipline, and leadership skills while creating social transformation for marginalized communities.',
+    badge: 'Social Transformation',
   },
 ];
 

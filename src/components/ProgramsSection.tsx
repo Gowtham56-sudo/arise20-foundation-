@@ -21,10 +21,7 @@ export const ProgramsSection: React.FC<ProgramsSectionProps> = ({
 
   const categories = [
     { id: 'all', label: 'All Programs' },
-    { id: 'education', label: 'AriseEdu (Education)' },
-    { id: 'healthcare', label: 'AriseHealth (Care Vans)' },
-    { id: 'youth', label: 'AriseYouth (Skills)' },
-    { id: 'sustainability', label: 'AriseGreen (Clean Water)' },
+    { id: 'education', label: 'Cultural Training' },
   ];
 
   return (
