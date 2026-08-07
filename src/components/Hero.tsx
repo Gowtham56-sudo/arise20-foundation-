@@ -57,11 +57,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDonate, onOpenVolunteer }) => 
           <img
             src={s.image}
             alt={s.title}
-            className="w-full h-full object-cover object-center filter brightness-90"
+            className="w-full h-full object-cover object-top md:object-center filter brightness-90 opacity-80"
             referrerPolicy="no-referrer"
           />
           {/* Deep Royal Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0A2E63] via-[#0A2E63]/75 to-black/50" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0A2E63] via-[#0A2E63]/75 to-black/50 opacity-70" />
         </div>
       ))}
 

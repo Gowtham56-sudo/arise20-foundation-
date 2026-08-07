@@ -116,7 +116,7 @@ export const AboutSection: React.FC = () => {
                       <p className="text-xs text-[#E3B341] font-medium">Founder & Managing Trustee</p>
                     </div>
                 </div>
-                <div className="absolute -bottom-6 -right-6 bg-[#E3B341] text-[#0A2E63] font-bold p-4 rounded-2xl shadow-lg text-xs max-w-xs border border-white">
+                <div className="relative lg:absolute mt-6 lg:mt-0 lg:-bottom-12 lg:-right-6 bg-[#E3B341] text-[#0A2E63] font-bold p-4 sm:p-5 rounded-2xl shadow-lg text-sm lg:text-xs w-full lg:max-w-xs border border-white z-10">
                   "Small acts of consistent love can ignite an unstoppable wave of transformation."
                 </div>
               </motion.div>
