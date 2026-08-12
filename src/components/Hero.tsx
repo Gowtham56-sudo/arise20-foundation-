@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart, UserPlus, ShieldCheck, Award, ArrowDown, Sparkles } from 'lucide-react';
-import bg1 from '../../backgroundimages/1st.png';
-import bg2 from '../../backgroundimages/2nd.jpg';
-import bg3 from '../../backgroundimages/3rd.png';
-
 interface HeroProps {
   onOpenDonate: (amount?: number) => void;
   onOpenVolunteer: () => void;
@@ -12,19 +8,19 @@ interface HeroProps {
 
 const HERO_SLIDES = [
   {
-    image: bg1,
+    image: '/hero-heritage.png',
     title: 'Preserving Heritage, Empowering Youth',
     subtitle: 'Dedicated to preserving Tamil Nadu\'s traditional arts while empowering underprivileged communities through free education.',
     badge: '100% Transparent Non-Profit',
   },
   {
-    image: bg2,
+    image: '/hero-arts.png',
     title: 'Reviving Traditional Arts',
     subtitle: 'Providing free training in Parai Attam, Oyilattam, and more to orphanage children and rural youth.',
     badge: 'Cultural Identity',
   },
   {
-    image: bg3,
+    image: '/hero-future.png',
     title: 'Building a Brighter Future',
     subtitle: 'Fostering confidence, discipline, and leadership skills while creating social transformation for marginalized communities.',
     badge: 'Social Transformation',

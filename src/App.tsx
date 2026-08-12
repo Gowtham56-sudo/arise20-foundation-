@@ -63,8 +63,8 @@ export default function App() {
         {/* 5. Success Stories Spotlight (Removed) */}
         {/* <SuccessStories /> */}
 
-        {/* 6. Masonry Gallery with Lightbox (Removed) */}
-        {/* <GallerySection onOpenLightbox={(item) => setSelectedGalleryItem(item)} /> */}
+        {/* 6. Masonry Gallery with Lightbox */}
+        <GallerySection onOpenLightbox={(item) => setSelectedGalleryItem(item)} />
 
         {/* 7. Upcoming Events Timeline (Removed) */}
         {/* <EventsTimeline onRegisterEvent={(event) => setSelectedEvent(event)} /> */}
