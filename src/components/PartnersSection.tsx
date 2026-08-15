@@ -52,10 +52,7 @@ export const PartnersSection: React.FC = () => {
             <ShieldCheck className="w-5 h-5 text-[#154C9E]" />
             <span>80G & 12A Certified</span>
           </div>
-          <div className="flex items-center gap-2">
-            <Award className="w-5 h-5 text-[#E3B341]" />
-            <span>FCRA Approved for Foreign Contributions</span>
-          </div>
+
           <div className="flex items-center gap-2">
             <Heart className="w-5 h-5 text-[#154C9E]" />
             <span>GuideStar Platinum Seal of Transparency</span>

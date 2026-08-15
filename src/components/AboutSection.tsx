@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Target, Compass, Shield, Users, Sparkles, HeartHandshake, CheckCircle2 } from 'lucide-react';
-import founderImage from '../../images/isravel.jpeg';
+import founderImage from '../../images/WhatsApp Image 2026-08-07 at 8.48.02 PM.jpeg';
 
 export const AboutSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'story' | 'vision' | 'values'>('story');

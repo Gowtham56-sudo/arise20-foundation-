@@ -52,7 +52,7 @@ export const PROGRAMS: Program[] = [
   {
     id: 'tamil-arts',
     title: 'Tamil Folk Arts Training',
-    category: 'education',
+    category: 'arts',
     shortDesc: 'Providing free training in Parai Attam, Oyilattam, and other traditional arts.',
     fullDesc: 'We conduct free weekly training sessions, folk art workshops, performance practice, and cultural awareness programmes for orphanage children, economically disadvantaged children, and rural youth. Students gain confidence, discipline, leadership and communication skills while preserving Tamil culture.',
     image: '/tamil-folk.jpg',
@@ -109,7 +109,7 @@ export const PROGRAMS: Program[] = [
   {
     id: 'winter-blanket-drive',
     title: 'Winter Blanket Drive',
-    category: 'healthcare',
+    category: 'social service',
     shortDesc: 'Providing warm blankets to the homeless and vulnerable during the harsh winter months.',
     fullDesc: 'Every winter, thousands of homeless individuals and families in northern India face life-threatening cold. Our Winter Blanket Drive aims to distribute high-quality, warm blankets to the most vulnerable populations living on the streets or in temporary shelters, ensuring they stay safe and warm.',
     image: '/winter-blanket-v2.png',

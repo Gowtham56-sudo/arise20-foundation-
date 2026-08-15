@@ -24,12 +24,11 @@ export const DonationSection: React.FC<DonationSectionProps> = ({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [receiptData, setReceiptData] = useState<any>(null);
 
-  const PRESET_AMOUNTS = [27000, 81000, 324000];
+  const PRESET_AMOUNTS = [27000, 81000];
 
   const getImpactMessage = (val: number) => {
     if (val === 27000) return 'Monthly Sponsor: Provides free training, preserves Tamil heritage, empowers women & youth for one month.';
     if (val === 81000) return 'Quarterly Sponsor: Provides free training, preserves Tamil heritage, empowers women & youth for three months.';
-    if (val === 324000) return 'Annual Sponsor: Fully supports our training programs, community welfare, and administration for an entire year.';
     return 'Custom sponsorship to support education, culture, women empowerment and community development.';
   };
 

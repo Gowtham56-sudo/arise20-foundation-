@@ -1,4 +1,4 @@
-export type ProgramCategory = 'all' | 'education' | 'healthcare' | 'youth' | 'sustainability';
+export type ProgramCategory = 'all' | 'education' | 'healthcare' | 'youth' | 'sustainability' | 'arts' | 'social service';
 
 export interface Program {
   id: string;
