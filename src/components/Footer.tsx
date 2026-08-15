@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex items-center gap-2 text-xs text-[#E3B341] font-semibold">
               <ShieldCheck className="w-4 h-4" />
-              <span>Section 80G Tax Exempt</span>
+              <span>12A & 80G Certified</span>
             </div>
           </div>
 
