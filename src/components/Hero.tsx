@@ -141,15 +141,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDonate, onOpenVolunteer }) => 
         >
           <motion.div whileHover={{ y: -3 }} className="flex items-center justify-center gap-2 bg-white/5 backdrop-blur-sm p-3 rounded-xl border border-white/10">
             <ShieldCheck className="w-5 h-5 text-[#E3B341]" />
-            <span>80G Tax Exempt Certified</span>
+            <span>12A & 80G Certified</span>
           </motion.div>
           <motion.div whileHover={{ y: -3 }} className="flex items-center justify-center gap-2 bg-white/5 backdrop-blur-sm p-3 rounded-xl border border-white/10">
             <Award className="w-5 h-5 text-[#E3B341]" />
-            <span>GuideStar Gold Certified</span>
+            <span>100% Transparent Non-Profit</span>
           </motion.div>
           <motion.div whileHover={{ y: -3 }} className="flex items-center justify-center gap-2 bg-white/5 backdrop-blur-sm p-3 rounded-xl border border-white/10">
             <Sparkles className="w-5 h-5 text-[#E3B341]" />
-            <span>250,000+ Direct Beneficiaries</span>
+            <span>1,000+ Direct Beneficiaries</span>
           </motion.div>
         </motion.div>
       </div>

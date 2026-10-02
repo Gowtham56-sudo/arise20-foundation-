@@ -80,7 +80,7 @@ export const ImpactStats: React.FC = () => {
             Empowering Communities with Measurable Change
           </h2>
           <p className="text-gray-600 text-base sm:text-lg">
-            Every donation and volunteer hour directly fuels measurable outcomes. Here is our footprint of hope built together over the last decade across India.
+            Every donation and volunteer hour directly fuels measurable outcomes. Here is our footprint of hope as we empower youth, revive traditional folk arts, and serve grassroots communities.
           </p>
         </motion.div>
 

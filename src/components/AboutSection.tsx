@@ -155,7 +155,7 @@ export const AboutSection: React.FC = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-5 h-5 text-[#154C9E]" />
-                    <span>1,200+ Active Volunteers</span>
+                    <span>100+ Active Volunteers</span>
                   </div>
                 </div>
               </motion.div>

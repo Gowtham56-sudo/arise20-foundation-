@@ -69,7 +69,7 @@ export const FAQSection: React.FC = () => {
         >
           {[
             { id: 'all', label: 'All FAQs' },
-            { id: 'tax', label: 'Tax 80G & 501(c)(3)' },
+            { id: 'tax', label: 'Tax 12A & 80G' },
             { id: 'donation', label: 'Donation Allocation' },
             { id: 'volunteering', label: 'Volunteering' },
             { id: 'general', label: 'General Info' },
